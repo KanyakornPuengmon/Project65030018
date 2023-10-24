@@ -72,7 +72,12 @@ jobs:
         uses: darenm/Setup-VSTest@v1
         id: setup_vstest
 
-      - name: Test Project Members
+    ### name: Test Project Members
+    ### id: run_vstest
+  ### working-directory: .\TestProject\\bin\Debug\net6.0
+      ###  run: vstest.console.exe TestProject.dll /Tests:TestProjectMembersCount,TestProjectMemberIds
+
+         - name: Test Project Members
         id: run_vstest
         working-directory: .\TestProject\\bin\Debug\net6.0
-        run: vstest.console.exe TestProject.dll /Tests:TestProjectMembersCount,TestProjectMemberIds 
+        run: vstest.console.exe TestProject.dll /Tests:TestProjectMembersCount,TestProjectMemberIds
