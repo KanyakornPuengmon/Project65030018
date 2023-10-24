@@ -13,6 +13,7 @@ namespace Project_65030018
             Bob = 1 ,
             Alice = 2 ,
             Mark = 3 ,
+            big = 4 ,
         }
     }
 }
