@@ -10,10 +10,10 @@ namespace Project_65030018
     {
         public enum Members
         {
-            Bob = 1 ,
-            Alice = 2 ,
+            Pear = 1 ,
+            Ming = 2 ,
             Mark = 3 ,
-            big = 4 ,
+            Bob = 4 ,
         }
     }
 }
