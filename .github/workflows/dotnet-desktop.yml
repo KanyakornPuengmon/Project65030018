@@ -76,3 +76,9 @@ jobs:
         id: run_vstest
         working-directory: .\TestProject\bin\Debug\net6.0\
         run: vstest.console.exe TestProject.dll /Tests:TestProjectMembersCount,TestProjectMemberIds
+      
+      - name: Debug Information
+        run: |
+          echo "Current Directory: $(pwd)"
+          echo "PATH: $PATH"
+          ls -al
