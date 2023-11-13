@@ -13,5 +13,11 @@ namespace TestProject
             Assert.IsTrue((int)Project.Members.Mark == 3);
             Assert.IsTrue((int)Project.Members.Bob == 4);
         }
+
+        [TestMethod]
+        public void TestProjectMembersCount()
+        {
+            Assert.IsTrue(Enum.getNames(typeof(Project.Members)).Length == 4);
+        }
     }
 }
