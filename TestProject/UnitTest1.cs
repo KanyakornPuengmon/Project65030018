@@ -1,4 +1,4 @@
-using project_65030018;
+using Project_65030018;
 namespace TestProject
 {
     [TestClass]
