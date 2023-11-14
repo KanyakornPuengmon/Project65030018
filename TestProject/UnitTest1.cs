@@ -17,7 +17,7 @@ namespace TestProject
         [TestMethod]
         public void TestProjectMembersCount()
         {
-            Assert.IsTrue(Enum.getNames(typeof(Project.Members)).Length == 4);
+            Assert.IsTrue(Enum.GetNames(typeof(Project.Members)).Length == 4);
         }
     }
 }
