@@ -13,7 +13,7 @@ namespace Project_65030018
             Pear = 1 ,
             Ming = 2 ,
             Mark = 3 ,
-            Bob = 4 
+            Bob = 4
         }
     }
 }
