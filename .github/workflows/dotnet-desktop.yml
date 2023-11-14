@@ -75,4 +75,4 @@ jobs:
       - name: Test Project Members
         id: run_vstest
         working-directory: .\TestProject
-        run: vstest.console.exe TestProject.exe /Tests:TestProjectMembersCount,TestProjectMemberIds
+        run: vstest.console.exe UnitTest1.dll /Tests:TestProjectMembersCount,TestProjectMemberIds
